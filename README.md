@@ -1,4 +1,4 @@
-# Tuya IoTOS Embeded Demo BLE temperature alarm
+# Tuya IoTOS Embeded Demo BLE Temperature Alarm
 
 [English](./README.md) | [中文](./README_zh.md) 
 
@@ -64,21 +64,21 @@ This demo is based on Tuya Smart Cloud Platform, Tuya Smart APP, IoTOS Embeded B
 |    ├── sdk
 |    |    └── tuya_uart_common_handler.c        /* UART common handler */
 |    ├── driver
-|    |    └── app_driver_ntc_b3950_100k.c       /* NTC driver related */
-|    |    └── app_driver_buzzer.c               /* buzzer driver related */
+|    |    ├── tuya_app_driver_ntc_b3950_100k.c  /* NTC driver related */
+|    |    └── tuya_app_driver_buzzer.c          /* buzzer driver related */
 |    ├── tuya_ble_app_demo.c                    /* application entry file */
-|    └── app_temp_alarm.c                       /* temperature alarm application */
+|    └── tuya_app_temp_alarm.c                  /* temperature alarm application */
 |
-├── include     /* header file */
+└── include     /* header file */
      ├── sdk
-     |    └── custom_app_uart_common_handler.h  /* UART common handler */
+     |    ├── custom_app_uart_common_handler.h  /* UART common handler */
      |    ├── custom_app_product_test.h         /* custom product test related */
      |    └── custom_tuya_ble_config.h          /* application config file */
      ├── driver
-     |    └──app_driver_ntc_b3950_100k.h        /* NTC driver related */
-     |    └──app_driver_buzzer.h                /* buzzer driver related */
+     |    ├── tuya_app_driver_ntc_b3950_100k.h  /* NTC driver related */
+     |    └── tuya_app_driver_buzzer.h          /* buzzer driver related */
      ├── tuya_ble_app_demo.h                    /* application entry file */
-     └── app_temp_alarm.h                       /* temperature alarm application */
+     └── tuya_app_temp_alarm.h                  /* temperature alarm application */
 ```
 
 <br>

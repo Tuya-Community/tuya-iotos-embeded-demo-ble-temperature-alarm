@@ -1,4 +1,4 @@
-# Tuya IoTOS Embeded Demo BLE temperature alarm
+# Tuya IoTOS Embeded Demo BLE Temperature Alarm
 
 [English](./README.md) | [中文](./README_zh.md)
 
@@ -63,21 +63,21 @@
 |    ├── sdk
 |    |    └── tuya_uart_common_handler.c        /* UART通用对接实现代码 */
 |    ├── driver
-|    |    └── app_driver_ntc_b3950_100k.c       /* 温度传感器驱动相关 */
-|    |    └── app_driver_buzzer.c               /* 无源蜂鸣器驱动相关 */
+|    |    ├── tuya_app_driver_ntc_b3950_100k.c  /* 温度传感器驱动相关 */
+|    |    └── tuya_app_driver_buzzer.c          /* 无源蜂鸣器驱动相关 */
 |    ├── tuya_ble_app_demo.c                    /* 应用层入口文件 */
-|    └── app_temp_alarm.c                       /* 过温报警应用代码 */
+|    └── tuya_app_temp_alarm.c                  /* 过温报警应用代码 */
 |
-├── include     /* 头文件目录 */
+└── include     /* 头文件目录 */
      ├── sdk
-     |    └── custom_app_uart_common_handler.h  /* UART通用对接实现代码 */
+     |    ├── custom_app_uart_common_handler.h  /* UART通用对接实现代码 */
      |    ├── custom_app_product_test.h         /* 自定义产测项目相关实现 */
      |    └── custom_tuya_ble_config.h          /* 应用配置文件 */
      ├── driver
-     |    └──app_driver_ntc_b3950_100k.h        /* 温度传感器驱动相关 */
-     |    └──app_driver_buzzer.h                /* 无源蜂鸣器驱动相关 */
+     |    ├── tuya_app_driver_ntc_b3950_100k.h  /* 温度传感器驱动相关 */
+     |    └── tuya_app_driver_buzzer.h          /* 无源蜂鸣器驱动相关 */
      ├── tuya_ble_app_demo.h                    /* 应用层入口文件 */
-     └── app_temp_alarm.h                       /* 过温报警应用代码 */
+     └── tuya_app_temp_alarm.h                  /* 过温报警应用代码 */
 ```
 
 <br>
