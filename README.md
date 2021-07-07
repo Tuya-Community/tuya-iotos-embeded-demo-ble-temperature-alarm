@@ -138,7 +138,7 @@ When this function is called, the maximum data length of is `TUYA_BLE_REPORT_MAX
 
 <br>
 
-### Pin configuration:
+### Pin configuration
 
 | ntc_pin | buzzer_pin |
 | :-----: | :--------: |
