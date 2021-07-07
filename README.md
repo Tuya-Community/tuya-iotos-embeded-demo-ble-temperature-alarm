@@ -107,7 +107,7 @@ The [Tuya IoT Platform](https://iot.tuya.com/) manages data through DPs. The dat
 - `Dp_id`: the DP ID of a data point defined on the Tuya IoT platform. It is one byte.
 
 
-  - `Dp_type`: the data type. It is one byte.
+- `Dp_type`: the data type. It is one byte.
 
   - `#define DT_RAW 0`: raw type.
 
